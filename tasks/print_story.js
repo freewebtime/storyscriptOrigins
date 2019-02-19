@@ -13,6 +13,10 @@ let filesToRender = [
   {
     source: './index',
     target: '../index.txt'
+  },
+  {
+    source: './index',
+    target: '../README.md'
   }
 ];
 
