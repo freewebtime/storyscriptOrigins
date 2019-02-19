@@ -89,7 +89,7 @@
 Для того, чтобы писать на StoryScript, не нужно быть программистом. Нужно просто писать текст своей истории, как и раньше. Просто в этот текст теперь можно добавить спец-символы, которые его "оживят". 
 
 StoryScript бесплатный. Открытый исходный код на Гитхабе. 
-Чтобы им воспользоваться, нужно установить бесплатный "продвинутый блокнот" Microsoft Visual Studio Code. И там, в этом блокноте, выбрать из списка доступных плагинов story-script-language. Если она у вас уже стоит, и устанавливали вы ее очень давно, и у вас Windows, то рекоммендую обновить Node.js до последней версии.
+Чтобы им воспользоваться, нужно установить бесплатный "продвинутый блокнот" [Microsoft Visual Studio Code](https://code.visualstudio.com/). И там, в этом блокноте, выбрать из списка доступных плагинов [story-script-language](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode). Если она у вас уже стоит, и устанавливали вы ее очень давно, и у вас Windows, то рекоммендую обновить Node.js до последней версии.
 
 ![Установка плагина](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)
 
