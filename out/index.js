@@ -202,6 +202,10 @@ __context['__text'] = [...__context['__text'], ``];
 ;
 __context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['Сторипоинты'], '\r\n')}`];
 ;
+__context['__text'] = [...__context['__text'], ``];
+;
+__context['__text'] = [...__context['__text'], `![этот текст я ишу на storyscript](https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/writing_on_storyscript.png)`];
+;
 // INFO: this trick is for making this file node module
 exports.default = __context;
 module.exports = Object.assign({}, __context);

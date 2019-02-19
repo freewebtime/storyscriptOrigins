@@ -62,3 +62,6 @@
 # Логлайн
 Программист, всю жизнь мечтавший стать сценаристом, на пятнадцатом году карьеры бросил работу, написал свой собственный язык программирования и теперь пишет на нем сценарии
 
+
+
+![этот текст я ишу на storyscript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/writing_on_storyscript.png)
