@@ -4,10 +4,10 @@ let stsConfigPath = path.resolve(rootPath, 'stsconfig.json');
 let tsConfigPath = path.resolve(rootPath, 'tsconfig.json');
 
 let child_process = require('child_process');
-let stscFilePath = require.resolve('storyscript/out/stsc');
-let command = `node "${stscFilePath}" "${stsConfigPath}" -ts "${tsConfigPath}"`;
-console.log('excuting ', command);
-console.log(child_process.execSync(command).toString());
+// let stscFilePath = require.resolve('storyscript/out/stsc');
+// let command = `node "${stscFilePath}" "${stsConfigPath}" -ts "${tsConfigPath}"`;
+// console.log('excuting ', command);
+// console.log(child_process.execSync(command).toString());
 
 let filesToRender = [
   {
