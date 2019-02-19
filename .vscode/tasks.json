@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile",
+      "group": "build",
+      "type": "npm",
+      "script": "compile",
+      "presentation": {
+        "panel": "shared",
+        "reveal": "never"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "compileAndRun",
+      "group": "build",
+      "type": "npm",
+      "script": "compileAndRun",
+      "presentation": {
+        "panel": "shared",
+        "reveal": "never"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "compile:storyscript",
+      "group": "build",
+      "type": "npm",
+      "script": "compile:storyscript",
+      "presentation": {
+        "panel": "shared",
+        "reveal": "never"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "compile:typescript",
+      "group": "build",
+      "type": "npm",
+      "script": "compile:typescript",
+      "presentation": {
+        "panel": "shared",
+        "reveal": "never"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

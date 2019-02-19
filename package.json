@@ -1,0 +1,25 @@
+{
+  "name": "example-story",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "dependencies": {
+    "storyscript": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.88",
+    "typescript": "^3.3.3"
+  },
+  "scripts": {
+    "compileAndRun": "stsc stsconfig.json -ts tsconfig.json && node ./tasks/print_story.js",
+    "compile": "stsc stsconfig.json -ts tsconfig.json",
+    "compile:storyscript": "stsc stsconfig.json",
+    "compile:typescript": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jack-storytailor.visualstudio.com/dolbozaichiki/_git/dolbozaichiki"
+  },
+  "author": "author name",
+  "license": "MIT"
+}

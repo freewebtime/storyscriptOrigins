@@ -1,0 +1,18 @@
+{
+  "sourceRoot": "./story", 
+  "environmentPath": "environment",
+
+  "isEmitTypescript": true,
+  "typescriptOutputRoot": "./src",
+
+  "isEmitJavascript": false,
+  "javascriptOutputRoot": "./out",
+
+  "exclude": [
+    ".*/node_modules/.*"
+  ],
+
+  "include": [
+    ".*\\.sts"
+  ]
+}
