@@ -191,9 +191,7 @@ __context['Сторипоинты']['__text'] = [...__context['Сторипои�
 ;
 __context['Сторипоинты']['__text'] = [...__context['Сторипоинты']['__text'], `${__serializer.serialize( __context['Сторипоинты']['Хозяин двух миров'], '\r\n' )}`];
 ;
-__context['__text'] = [...__context['__text'], ``];
-;
-__context['__text'] = [...__context['__text'], `#Логлайн`];
+__context['__text'] = [...__context['__text'], `# Логлайн`];
 ;
 __context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['Логлайн'], '\r\n' )}`];
 ;
