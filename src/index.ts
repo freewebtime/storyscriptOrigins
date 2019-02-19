@@ -177,7 +177,7 @@ __context['Сторипоинты']['Хозяин двух миров']['__text'
 ;
 __context['Сторипоинты']['Хозяин двух миров']['__text'] = [...__context['Сторипоинты']['Хозяин двух миров']['__text'], ``];
 ;
-__context['Сторипоинты']['Хозяин двух миров']['__text'] = [...__context['Сторипоинты']['Хозяин двух миров']['__text'], `![персонажи](https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_showcase.png)    `];
+__context['Сторипоинты']['Хозяин двух миров']['__text'] = [...__context['Сторипоинты']['Хозяин двух миров']['__text'], `![Установка плагина](https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)`];
 ;
 __context['Сторипоинты']['Хозяин двух миров']['__text'] = [...__context['Сторипоинты']['Хозяин двух миров']['__text'], ``];
 ;

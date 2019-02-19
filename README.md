@@ -91,7 +91,7 @@
 StoryScript бесплатный. Открытый исходный код на Гитхабе. 
 Чтобы им воспользоваться, нужно установить бесплатный "продвинутый блокнот" Microsoft Visual Studio Code. И там, в этом блокноте, выбрать из списка доступных плагинов story-script-language. Если она у вас уже стоит, и устанавливали вы ее очень давно, и у вас Windows, то рекоммендую обновить Node.js до последней версии.
 
-![персонажи](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_showcase.png)    
+![Установка плагина](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)
 
 Я прошел программирование. Теперь я хочу в кино
 
