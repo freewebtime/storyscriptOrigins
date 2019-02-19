@@ -12,10 +12,6 @@ console.log(child_process.execSync(command).toString());
 let filesToRender = [
   {
     source: './index',
-    target: '../index.txt'
-  },
-  {
-    source: './index',
     target: '../README.md'
   }
 ];
