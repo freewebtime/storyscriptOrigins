@@ -40,7 +40,7 @@ __context['Сторипоинты']['Отказ от Зова']['__text'] = [...
 ;
 __context['Сторипоинты']['Отказ от Зова']['__text'] = [...__context['Сторипоинты']['Отказ от Зова']['__text'], ``];
 ;
-__context['Сторипоинты']['Отказ от Зова']['__text'] = [...__context['Сторипоинты']['Отказ от Зова']['__text'], `![Сумасшедший отпуск](https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/book.jpg)`];
+__context['Сторипоинты']['Отказ от Зова']['__text'] = [...__context['Сторипоинты']['Отказ от Зова']['__text'], `![Программирование](https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/programming.png)`];
 ;
 __context['Сторипоинты']['Отказ от Зова']['__text'] = [...__context['Сторипоинты']['Отказ от Зова']['__text'], ``];
 ;
