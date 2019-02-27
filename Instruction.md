@@ -8,6 +8,7 @@
 Установите [Storyscript плагин для vscode](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode)
 ![пустая папка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)
 
+#### Начинаем
 
 Самый простой способ приступить к работе - это открыть пустую папку в vscode и скопировать в нее тестовый проект
 

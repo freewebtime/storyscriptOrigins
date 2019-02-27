@@ -33,6 +33,8 @@ __context['__text'] = [...__context['__text'], `${__serializer.serialize(__conte
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
+__context['__text'] = [...__context['__text'], `#### Начинаем`];
+;
 __context['__text'] = [...__context['__text'], ``];
 ;
 __context['__text'] = [...__context['__text'], `Самый простой способ приступить к работе - это открыть пустую папку в vscode и скопировать в нее тестовый проект`];
