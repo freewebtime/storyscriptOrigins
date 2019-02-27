@@ -176,7 +176,7 @@ Storyscript задуман как диалект javascript по аналоги�
 \t  instructions;
 \t}
 
-*фото("operation_include", "operations")
+*фото("operation_include.png", "operations")
 
 Строка без спец-символов компилируется как инструкция:
 

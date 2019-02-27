@@ -173,7 +173,7 @@ Storyscript задуман как диалект javascript по аналоги�
 	  instructions;
 	}
 
-![operations](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/operation_include)
+![operations](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/operation_include.png)
 
 Строка без спец-символов компилируется как инструкция:
 

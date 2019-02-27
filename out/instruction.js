@@ -356,7 +356,7 @@ __context['__text'] = [...__context['__text'], `\t}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`operation_include`, `operations`), '\r\n')}`];
+__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`operation_include.png`, `operations`), '\r\n')}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
