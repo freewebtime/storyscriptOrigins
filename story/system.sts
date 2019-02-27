@@ -1,0 +1,10 @@
+* ссылка = function (@урл, @текст) {
+  return "[*@текст;](*@урл;)";
+}
+
+* фото = function (@урл, @текст, @imgRoot) {
+  if (!@imgRoot) {
+    @imgRoot = "https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/";
+  }
+  return "![*@текст;](*@imgRoot;*@урл;)";
+}

@@ -1,145 +1,100 @@
-# Storyscript. Инструкция
-Актуально для версий 1.4.x. Примите во внимание, что Storyscript работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены
+# Логлайн
+Программист, всю жизнь мечтавший стать сценаристом, на пятнадцатом году карьеры бросил работу, написал свой собственный язык программирования и теперь пишет на нем сценарии
 
-Это - краткая инструкция пользователя языка программирования [storyscript](https://github.com/freewebtime/storyscript) в [Microsoft Visual Studio Code](https://code.visualstudio.com/)
+![персонажи](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_showcase.png)
 
-## Начало работы
-Установите [Microsoft Visual Studio Code](https://code.visualstudio.com/)
-![vscode](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_new.png)
+## Обычный мир  
+Все хотят стать программистами и жалеют, что ими не стали
+## Я - чужак в своем мире  
+Я с ранних лет хотел писать книги. 
+Но 15 лет назад стал программистом, и 15 лет мечтаю сменить профессию.
 
-Установите [Storyscript плагин для vscode](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode)
-![пустая папка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)
+## Зов приключений
+Свой первый рассказ я написал еще до того, как пошел в школу. С тех пор, где бы я ни был, чем бы ни занимался, я всегда пишу. Я вообще знаю всего один период, когда я ничего не писал - когда был женат, но это совсем другая история.
+ 
+У меня есть [блог-портфелио](https://freewebtime.blogspot.com/), где я публикую свои рассказы. 
+А в 2013 году я издал книгу "Сумасшедший отпуск". И даже не смотря на то, что тираж был всего 50 экземпляров, и печатался он на мои деньги, все равно - когда в руках твоя собственная книга, все сделанное обретает смысл.
 
-#### Начинаем
+![Сумасшедший отпуск](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/book.jpg)
 
-Самый простой способ приступить к работе - это открыть пустую папку в vscode и скопировать в нее тестовый проект
+## Отказ от Зова
+Я хотел писать книги, но понятия не имел, как на этом заработать. 
+Поэтому я писал программы. С ними проще - сплошная математика, и платят так, будто сами этого написать не могут.
+С другой стороны, и не пожалуешься - хотел писать? - ну вот, пиши. Программисты пишут на порядок больше текста, чем любой драматург или копирайтер. 
 
-Откройте пустую папку
-![пустая папка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_empty.png)
+![Программирование](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/programming.png)
 
-Кликните правой клавишей мыши в корне проекта и выберите из выпадающего меню "Initialize example project in a working root"
-![скопировать тестовый проект в корневую папку](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/init_example_project.png)
+## Наставник
+Через пару лет мой знакомый и очень начинающий режиссер попросил меня сыграть в его коротком метре. Я попал на съемочную площадку. 
+Съемки были адом. Режиссер постоянно ругался со всеми, кого только мог достать, сценарий был ужасный, а на работе приходилось брать отпуск за свой счет, и каждый день съемок обходился мне в $300 вычтенной зарплаты. И не смотря на все проблемы вместе взятые, это был потрясающий опыт. 
+Я понял, что не могу без кино. 
+Тогда мне казалось, что когда у меня будет свой проект, я не повторю ошибок моего знакомого режиссера. "Ну, это же, по-любому, не сложнее, чем быть тимлидом и продуктовнером на продакшене"©. 
 
-Эта операция скопирует в корневую папку тестовый проект. Учтите, что если в корневой папке уже есть такие файлы, то они будут перетерты. Подтверждайте копирование
-![подтвердить копирование](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/confirm_init_example_project.png)
+## Начало пути
+Я уволился с работы и пререстал быть программистом. И еще развелся, но это другая история.
+Я подумал - нужно просто писать сценарии. Много. Так много, чтобы хватило научиться. Я поясню: хороший программист может написать любую программу тогда, когда надо. И без вдохновения (хотя, оно очень помогает). А значит, и писателем я буду тогда, когда смогу точно так же писать сюжеты. Просто пользуясь навыками.
 
-Тестовый проект скопирован в корневую папку. Примерно так должна выглядеть файловая структура проекта
-![тестовый проект создан](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/example_project_created.png)
+## Союзник
+А тем временем я думал подработать актером. Для этого нужен шоурил, и я решил снять его дома, в квартире. Я выписал сцены, которые нужно будет отснять, и понял, что их можно объединить в сюжет. Так родился сценарий [Взаперти](https://freewebtime.blogspot.com/2017/09/blog-post.html "Сценарий \"Взаперти\""), где всего два персонажа (один из них - в эпизодах), одна локация и стандартная блокбастерная структура. 
+ 
+Это история о Водителе грабителей банков, который в день ограбления просыпается в квартире любовницы, врет подельникам, что он не проспал, он уже к ним едет, и обнаруживает, что любовница ушла на работу, дверь заперла, ключей ему не оставила, а ограбление банка, с которого он должен забрать своих грабителей, уже началось.
 
-Обновите node-модули. Для этого
+Внезапно сами собой нашлись люди, с которыми это все можно было снять. Мы утрясли организацию, я вложил туда все деньги, что у меня оставались, и мы приступили.
+## Точка смерти
+Мы сняли фильм, и он провалился до проката, на монтаже. Как режиссер, я совершил все ошибки, на какие хватило сил, и остался у разбитого корыта.
+А потом рухнула и вся оставшаяся жизнь. От работы до спины.
 
-Откройте терминал
-![npm install в терминале](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/open_terminal.png)
+## Обретение меча
+Все, что мне оставалось - это писать, писать и писать. Уже не пытаться заработать, а просто учиться новому ремеслу.
+Я сел работать и только теперь признал, что у меня нет инструментов. Вообще. У программистов есть Visual Studio, у художников Photoshop, а у 3d-шников - 3ds max, а у сценариста что? Блокнот? Вот тут я понял, что столкнулся с самой сложной задачей. У меня не было инструмента. 
+Как я понял, сценаристы работают на чем придется. Безусловно, есть куча программ, которые позволяют отформатировать текст (вроде Microsoft Word, Amazon Storywrtiter, КИТ Сценарист или Truby Writers Studio), но я не нашел ни одной, дающей возможность текст компоновать и генерировать. 
 
-Вбейте комманду "npm install" или "npm i" и нажмите "ENTER"
-![npm install в терминале](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/npm_install.png)
+Например, что делать, если сценарий готов, а продюсер просит переименовать персонажа? Нужно прочесать весь текст сценария и везде попереименовывать? Программист просто выписал бы имена персонажей в отдельный список и подставлял бы их в текст по имени из того списка. И если нужно кого переименовать - вот там, в том списке и переименует. И все, весь остальной текст моментально подхватил бы изменения.
 
-node-модули обновлены
-![npm install в терминале](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/node_modules_created.png)
+Вот, например, список с персонажами: 
 
-терминал можно закрыть
-![закрыть терминал](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/close_terminal.png)
+![персонажи](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/characters.png)
 
+А вот его элементы вставлены в текст:
 
-Исходные файлы истории хранятся в папке story (*.sts)
-![исходники истории](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_source_files.png)
+![ссылка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/references.png)
 
-Подготовка проекта завершена. Это его рабочее состояние
+Или другой пример. Допустим, действие первого акта происходит в 2003 году, а второго акта - через 19 лет, т.е. в 2022. И вот сценарий написан, и эти цифры там в тексте есть. 
+Опять что-то случилось, и нужно сдвинуть действие первого акта на, скажем, 1968 год. Второй акт должен автоматически переписаться, чтобы разница во времени между ними оставалась те же 19 лет. Т.е. уже в 1987 году.
 
-#### Теперь выполним сборку тестового проекта. 
-Откройте файл с исходниками истории. Например, story/index.sts
+![расчеты](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/calculations.png)
 
-Открывайте Command Palette (Меню View -> Command Palette или комбинация клавиш Ctrl+Shift+P) 
-![command palette](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/command_palette.png)
+Или, например, а что если это сценарий к компьютерной игре, а там много разных вариантов развития событий в зависимости от того, что, например, делает игрок. Т.е. мы хотим, чтобы в случае, если персонаж ранен к третьему акту, то тогда по сюжету он проигрывает бой, а если не ранен - то выигрывает. И есть разные концовки на оба случая, и выбирается одна из них автоматически. Автор описал бы обе и как-нибудь объяснил программе, какую из них выбрать. 
 
-![command palette openned](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/command_palette_openned.png)
+Для программиста это звучит обычно. А сценарист вообще, как правило, не в курсе, что так можно было.
+Ну, можно было бы. Если бы сценаристы были программистами, и у них был бы какой-то такой простой язык программирования, в котором можно было бы сделать то, что я описал.
 
-Выбирайте комманду "Compile: Compile and show preview" (по-умолчанию Ctrl+Alt+P)
-![compile and show preview](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/compile_and_show_preview.png)
+Вот было бы классно, думал я, если б такой язык программирования бы был. Но его не было. 
+ 
+И тогда я понял: чтобы перестать быть программистом, нужно написать свой собственный язык программирования.
+## Сражение с чудовищем
+![Сражение с чудовищем](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/writing_on_typescript.png)
+И вот я, человек, который твердо решил никогда больше не программировать, месяцами, иногда заплывами по нескольку бессонных суток подряд, фигачил этот язык программирования, постоянно напоминая себе, что я - псих.  
+Так не делают. Если хочешь сменить профессию - меняй. А я, выходит, сменил ее только на словах. 
+Более того, я еще и писал на javascript, а это тот язык, которого я практически не знал (я больше по серверам или десктопам, а в последние годы - вообще только Unity3d), т.е. пришлось еще и дополнительно js изучить, а это новые потери времени.
 
-В папке src сохраняется история на typescript. В папке out будет эта история на javascript
-![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/compiled_story.png)
+К середине прошедшего лета (2018) у меня была готова самая первая версия. Сильно урезанная, но это был полноценный, рабочий концепт. Язык программирования для сборки текстов. Он называется StoryScript (Стори-Скрипт, по аналогии с JavaScript, и, для тех, кому интересно - в javascript он и компилится). До нового года я его тестировал, как пользователь, т.е. как сценарист, а не программист. Когда у меня уже был список фич, которых не хватает, я снова сел программировать.
 
-Когда сборка истории завершена, открывается предпросмотр
-![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/preview_story.png)
+## Возвращение с победой
+Как вы понимаете, этот текст, который вы сейчас читаете, я пишу на StoryScript.
+![этот текст я пишу на storyscript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/writing_on_storyscript.png)
+Два дня назад я закончил второй этап разработки языка: тот уже не урезанный. Полный по Тьюрингу.  
+В нем реализовано еще пока далеко не все, что я хочу туда добавить, но то, что уже готово - работает, и им можно пользоваться.
+## Хозяин двух миров
+Для того, чтобы писать на StoryScript, не нужно быть программистом. Нужно просто писать текст своей истории, как и раньше. Просто в этот текст теперь можно добавить спец-символы, которые его "оживят". 
 
-Окно предпросмотра можно размещать как удобно
-![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/layout_2.png)
-![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/layout_3.png)
+StoryScript бесплатный. Открытый исходный код на [Гитхабе](https://github.com/freewebtime/storyscript). 
+Чтобы им воспользоваться, нужно установить бесплатный "продвинутый блокнот" [Microsoft Visual Studio Code](https://code.visualstudio.com/). И там, в этом блокноте, выбрать из списка доступных плагинов [story-script-language](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode). Если она у вас уже стоит, и устанавливали вы ее очень давно, и у вас Windows, то рекоммендую обновить [Node.js](https://nodejs.org/en/) до последней версии.
 
-Текст, показанный в окне предпросмотра, сохраняется в файл "story output.txt" в корне проекта
-![story output](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_output.png)
+![Установка плагина](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)
 
+Я прошел программирование. Теперь я хочу в кино
 
-## Для всех (база)
-Упрощенная инструкция затрагивает только базовый функционал.
-Этого хватит, чтобы собрать сценарий, и предполагается, что пользователю не понадобится никаких технических знаний
-
-### Текст истории
-
-Давайте удалим все содержимое файла story/index.sts и начнем историю с чистого листа
-
-
-#### Обычный текст
-Обычный текст попадает в финальную сборку "как есть", без изменений
-![simple text](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/simple_text.png)
-
-#### Комментарии
-Комментарии - это фрагмент текста, который не пойдет в финальную сборку. Комментарии нужны для самих разработчиков истории. Весь текст от символов // и до конца строки будет считаться комментарием
-![comments](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/comments.png)
-
-#### Спец-символы (перенос строки, табуляция)
-Есть три спец-символа, которые попадают в финальную сборку нестандартно. 
-
-Это символ переноса строки
-![endline symbol](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/endline_symbol.png)
-
-Символы конца строки и табуляции
-![endline and tab symbols](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/endline_and_tab.png)
-
-#### Экранирование спец-символов
-Экранирование спец-символов - это маркировка этих символов таким образом, чтобы компилятор не считал их спец-символами. Вот пример:
-![escaped symbols](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/escaped_symbols.png)
-
-### Переменные
-Если оформить текст в виде списка, то элементы этого списка можно будет вставлять в других местах истории
-Переменная пишется так (отступ из пробелов, потом звездочка, потом пробел, потом название переменной):
-
-	* Название Переменной
-
-    Содержание переменной пишется
-
-    с новой строки и отступом от края на 2 (два) пробела больше, чем у названия
-
-Вот пример объявленной переменной
-![outer variables](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable.png)
-
-
-### Вставки в текст
-А вот переменные вставлены в текст, и что из этого получается:
-![outer variables inserted](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable_inserted.png)
-
-#### Многоуровневые переменные
-![outer variables hierarchy](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variables_hierarchy.png)
-
-### Импорт других файлов
-Мы работаем в файле story/index.sts
-Давайте посмотрим, что у нас еще есть в папке story:
-![external file](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/external_file.png)
-
-Импортируем этот файл к нам
-![import characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/import_characters.png)
-
-И вставим персонажа из того файла в наш текст
-![import characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/inserted_imported_character.png)
-
-
-## Для программистов
-Усложненная инстркукция. Предполагается, что без объяснений ее должны понять программисты и всякие технари
-
-### Синтаксис
-
-### Как это работает 
 
 ## _
 [Сидоренко Евгений](https://www.facebook.com/evgeny.sydorenko), февраль 2019
