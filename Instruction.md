@@ -118,11 +118,16 @@ node-модули обновлены
 
 
 ### Вставки в текст
-А вот переменные вставлены в текст, и что из этого получается:
+А вот переменная вставлена в текст, и что из этого получается:
 ![outer variables inserted](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable_inserted.png)
 
 #### Многоуровневые переменные
 ![outer variables hierarchy](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variables_hierarchy.png)
+
+	 // если содержание переменной задается через знак "=", то у нее не может быть вложенных переменных:
+	
+	* Переменная = 100500
+	  * Подпеременная //Ошибка! Значение переменной "Переменная" - это цифра, у нее не может быть вложенных переменных
 
 ### Импорт других файлов
 Мы работаем в файле story/index.sts
