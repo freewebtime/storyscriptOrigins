@@ -102,13 +102,16 @@ node-модули обновлены
 ### Переменные
 Если оформить текст в виде списка, то элементы этого списка можно будет вставлять в других местах истории
 
-Вот пример объявленной переменной
+Вот примеры объявленных переменных
 ![outer variables](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable.png)
 
+
 ### Вставки в текст
-А вот переменная вставлены в текст, и что из этого получается:
+А вот переменные вставлены в текст, и что из этого получается:
 ![outer variables inserted](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable_inserted.png)
 
+#### Многоуровневые переменные
+![outer variables](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variables_hierarchy.png)
 
 ### Импорт других файлов
 
