@@ -23,6 +23,21 @@
 Тестовый проект скопирован в корневую папку. Примерно так должна выглядеть файловая структура проекта
 ![тестовый проект создан](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/example_project_created.png)
 
+Обновите node-модули. Для этого
+
+Откройте терминал
+![npm install в терминале](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/open_terminal.png)
+
+Вбейте комманду "npm install" или "npm i" и нажмите "ENTER"
+![npm install в терминале](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/npm_install.png)
+
+node-модули обновлены
+![npm install в терминале](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/node_modules_created.png)
+
+терминал можно закрыть
+![закрыть терминал](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/close_terminal.png)
+
+
 
 ## Для всех (база)
 Упрощенная инструкция затрагивает только базовый функционал.
