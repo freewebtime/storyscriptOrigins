@@ -719,7 +719,7 @@ __context['__text'] = [...__context['__text'], `\tdelete obj.field;`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], `## _`];
+__context['__text'] = [...__context['__text'], `## `];
 ;
 __context['__text'] = [...__context['__text'], `[Сидоренко Евгений](https:\//www.facebook.com/evgeny.sydorenko), февраль 2019`];
 ;
