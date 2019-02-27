@@ -311,6 +311,8 @@ __context['__text'] = [...__context['__text'], `Каждый sts модуль и
 ;
 __context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['фото'](`storyscript_compiled_to_typescript.png`, `compiled typescript`), '\r\n' )}`];
 ;
+__context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['фото'](`storyscript_compiled_to_javascript.png`, `compiled javascript`), '\r\n' )}`];
+;
 __context['__text'] = [...__context['__text'], ``];
 ;
 __context['__text'] = [...__context['__text'], ``];

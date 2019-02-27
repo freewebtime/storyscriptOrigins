@@ -148,6 +148,7 @@ node-модули обновлены
 Storyscript задуман как диалект javascript по аналогии с [typescript](https://www.typescriptlang.org/).
 Каждый sts модуль из папки projectRoot/story компилируется в соответствующий .ts файл и складывается это все в папке projectRoot/src. После чего typescript компилирует содержимое папки projectRoot/src в projectRoot/out - это уже javascript файлы. 
 ![compiled typescript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_compiled_to_typescript.png)
+![compiled javascript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_compiled_to_javascript.png)
 
 
 ### Синтаксис
