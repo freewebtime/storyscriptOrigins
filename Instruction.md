@@ -113,9 +113,19 @@ node-модули обновлены
 ![outer variables inserted](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable_inserted.png)
 
 #### Многоуровневые переменные
-![outer variables](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variables_hierarchy.png)
+![outer variables hierarchy](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variables_hierarchy.png)
 
 ### Импорт других файлов
+Мы работаем в файле story/index.sts
+Давайте посмотрим, что у нас еще есть в папке story:
+![external file](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/external_file.png)
+
+Импортируем этот файл к нам
+![import characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/import_characters.png)
+
+И вставим персонажа из того файла в наш текст
+![import characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/inserted_imported_character.png)
+
 
 ## Для программистов
 Усложненная инстркукция. Предполагается, что без объяснений ее должны понять программисты и всякие технари
