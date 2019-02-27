@@ -14,7 +14,7 @@
 
 ## Начало работы
 Установите *ссылка("https:\//code.visualstudio.com/", "Microsoft Visual Studio Code");
-*фото("vscode_empty.png", "vscode");
+*фото("vscode_new.png", "vscode");
 
 Установите *ссылка("https:\//marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode", "Storyscript плагин для vscode");
 *фото("install_extension.png", "пустая папка");
