@@ -260,7 +260,7 @@ __context['__text'] = [...__context['__text'], `${__serializer.serialize( __cont
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], `## _`];
+__context['__text'] = [...__context['__text'], `## `];
 ;
 __context['__text'] = [...__context['__text'], `[Сидоренко Евгений](https:\//www.facebook.com/evgeny.sydorenko), февраль 2019`];
 ;
