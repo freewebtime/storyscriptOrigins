@@ -276,7 +276,11 @@ __context['__text'] = [...__context['__text'], `${__serializer.serialize(__conte
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], ``];
+__context['__text'] = [...__context['__text'], `#### Вставка в текст операций`];
+;
+__context['__text'] = [...__context['__text'], `Такая запись позволяет добавить в историю операции:`];
+;
+__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`insert_operations.png`, `insert operations`), '\r\n')}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
