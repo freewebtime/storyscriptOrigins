@@ -150,8 +150,7 @@ Storyscript задуман как диалект javascript по аналоги�
 ![compiled typescript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_compiled_to_typescript.png)
 ![compiled javascript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_compiled_to_javascript.png)
 
-
-### Синтаксис
+### Как это работает
 Строка без спец-символов компилируется как инструкция:
 
 	  -> storyscript:
@@ -168,7 +167,18 @@ Storyscript задуман как диалект javascript по аналоги�
 	  -> typescript
 	  __context['__text'] = [...__context['__text'], `строка с ${__serializer.serialize( __context['Переменная'], '\r\n' )} `];
 
-### Как это работает 
+### Синтаксис
+
+#### Переменные
+
+#### Строки, числа, булевые
+
+#### Операторы
+
+#### Функции
+
+#### Объекты
+
 
 ## _
 [Сидоренко Евгений](https://www.facebook.com/evgeny.sydorenko), февраль 2019
