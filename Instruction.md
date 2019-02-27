@@ -221,13 +221,24 @@ Storyscript задуман как диалект javascript по аналоги�
 #### Объекты, массивы
 Объекты
 
-	 let obj = {
+	let obj = {
 	  ...otherObj,
 	  fieldName: "fieldValue",
 	  otherVariable,
 	  "fieldName2": 100500,
 	  "isTrue": false
 	}
+
+Конструктор объектов
+
+	let obj = new Object(prototype);
+
+Массивы
+
+	let array = [
+	  ...otherArray,
+	  newValue
+	] 
 
 #### Инструкции
 
