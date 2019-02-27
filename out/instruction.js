@@ -15,6 +15,10 @@ __context['фото'] = function (урл, текст, imgRoot) {
 };
 __context['__text'] = [...__context['__text'], `# Storyscript. Инструкция`];
 ;
+__context['__text'] = [...__context['__text'], `Актуально для версий 1.4.x. Примите во внимание, что Storyscript работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены`];
+;
+__context['__text'] = [...__context['__text'], ``];
+;
 __context['__text'] = [...__context['__text'], `Это - краткая инструкция пользователя языка программирования ${__serializer.serialize(__context['ссылка'](`https:\//github.com/freewebtime/storyscript`, `storyscript`), '\r\n')} в ${__serializer.serialize(__context['ссылка'](`https:\//code.visualstudio.com/`, `Microsoft Visual Studio Code`), '\r\n')}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
