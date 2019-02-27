@@ -143,11 +143,9 @@ __context['__text'] = [...__context['__text'], `${__serializer.serialize( __cont
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], `Окно предпросмотра можно размещать как удобно`];
-;
 __context['__text'] = [...__context['__text'], `Текст, показанный в окне предпросмотра, сохраняется в файл "story output.txt" в корне проекта`];
 ;
-__context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['фото'](`story_output.png`, `compiled story`), '\r\n' )}`];
+__context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['фото'](`story_output.png`, `story output`), '\r\n' )}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
