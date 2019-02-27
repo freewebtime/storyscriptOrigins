@@ -106,7 +106,7 @@ node-модули обновлены
 ![outer variables](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable.png)
 
 ### Вставки в текст
-А вот переменные вставлены в текст, и что из этого получается:
+А вот переменная вставлены в текст, и что из этого получается:
 ![outer variables inserted](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable_inserted.png)
 
 

@@ -229,7 +229,7 @@ __context['__text'] = [...__context['__text'], ``];
 ;
 __context['__text'] = [...__context['__text'], `### Вставки в текст`];
 ;
-__context['__text'] = [...__context['__text'], `А вот переменные вставлены в текст, и что из этого получается:`];
+__context['__text'] = [...__context['__text'], `А вот переменная вставлены в текст, и что из этого получается:`];
 ;
 __context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`outer_variable_inserted.png`, `outer variables inserted`), '\r\n')}`];
 ;
