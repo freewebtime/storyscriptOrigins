@@ -48,10 +48,19 @@ node-модули обновлены
 терминал можно закрыть
 *фото("close_terminal.png", "закрыть терминал");
 
-Теперь выполним сборку тестового проекта. 
-
 Исходные файлы истории хранятся в папке story (\*.sts)
 *фото("story_source_files.png", "исходники истории");
+
+
+#### Теперь выполним сборку тестового проекта. 
+Откройте файл с исходниками истории. Например, story/index.sts
+Открывайте Command Palette (Меню View -> Command Palette или комбинация клавиш Ctrl+Shift+P) 
+*фото("command_palette.png", "command palette");
+
+*фото("command_palette_openned.png", "command palette openned");
+
+Выбирайте комманду "Compile: Compile and show preview" (по-умолчанию Ctrl+Alt+P)
+*фото("compile_and_show_preview.png", "compile and show preview");
 
 
 ## Для всех (база)

@@ -93,7 +93,7 @@ __context['__text'] = [...__context['__text'], `Теперь выполним с
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], `Исходные файлы истории хранятся в папке story`];
+__context['__text'] = [...__context['__text'], `Исходные файлы истории хранятся в папке story (\*.sts)`];
 ;
 __context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['фото'](`story_source_files.png`, `исходники истории`), '\r\n' )}`];
 ;

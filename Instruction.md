@@ -39,7 +39,7 @@ node-модули обновлены
 
 Теперь выполним сборку тестового проекта. 
 
-Исходные файлы истории хранятся в папке story
+Исходные файлы истории хранятся в папке story (*.sts)
 ![исходники истории](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_source_files.png)
 
 
