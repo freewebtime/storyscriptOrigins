@@ -118,6 +118,11 @@ node-модули обновлены
 
 
 ### Вставки в текст
+
+	// Вставка в текст начинается со звездочки (*) и заканчивается точкой с запятой (;)
+	// Например:
+	Текст до вставки переменной, *Переменная; текст после вставки переменной
+
 А вот переменная вставлена в текст, и что из этого получается:
 ![outer variables inserted](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable_inserted.png)
 
