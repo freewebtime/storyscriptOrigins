@@ -37,10 +37,23 @@ node-модули обновлены
 терминал можно закрыть
 ![закрыть терминал](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/close_terminal.png)
 
-Теперь выполним сборку тестового проекта. 
-
 Исходные файлы истории хранятся в папке story (*.sts)
 ![исходники истории](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_source_files.png)
+
+
+#### Теперь выполним сборку тестового проекта. 
+Откройте файл с исходниками истории. Например, story/index.sts
+
+Открывайте Command Palette (Меню View -> Command Palette или комбинация клавиш Ctrl+Shift+P) 
+![command palette](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/command_palette.png)
+
+![command palette openned](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/command_palette_openned.png)
+
+Выбирайте комманду "Compile: Compile and show preview" (по-умолчанию Ctrl+Alt+P)
+![compile and show preview](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/compile_and_show_preview.png)
+
+Когда сборка истории завершена, открывается предпросмотр
+![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/compiled_story.png)
 
 
 ## Для всех (база)
