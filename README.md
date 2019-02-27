@@ -96,5 +96,8 @@ StoryScript бесплатный. Открытый исходный код на 
 Я прошел программирование. Теперь я хочу в кино
 
 
+## Ссылка на инструкцию
+[Инструкция](https://github.com/freewebtime/storyscriptOrigins/blob/master/Instruction.md)
+
 ## _
 [Сидоренко Евгений](https://www.facebook.com/evgeny.sydorenko), февраль 2019
