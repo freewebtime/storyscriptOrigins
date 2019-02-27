@@ -133,8 +133,8 @@ node-модули обновлены
 А вот переменная вставлена в текст, и что из этого получается:
 ![include expression](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/include_expression.png)
 
-#### Вставка в текст операций
-Такая запись позволяет добавить в историю операции:
+#### Операции над данными
+А вот так можно между строк совершать операции над данными:
 ![insert operations](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/insert_operations.png)
 
 ### Импорт других файлов
