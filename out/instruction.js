@@ -207,11 +207,13 @@ __context['__text'] = [...__context['__text'], `${__serializer.serialize(__conte
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], ``];
-;
-__context['__text'] = [...__context['__text'], ``];
-;
 __context['__text'] = [...__context['__text'], `#### Экранирование спец-символов`];
+;
+__context['__text'] = [...__context['__text'], `Экранирование спец-символов - это маркировка этих символов таким образом, чтобы компилятор не считал их спец-символами. Вот пример:`];
+;
+__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`escaped_symbols.png`, `escaped symbols`), '\r\n')}`];
+;
+__context['__text'] = [...__context['__text'], ``];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;

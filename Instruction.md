@@ -95,9 +95,10 @@ node-модули обновлены
 Символы конца строки и табуляции
 ![endline and tab symbols](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/endline_and_tab.png)
 
-
-
 #### Экранирование спец-символов
+Экранирование спец-символов - это маркировка этих символов таким образом, чтобы компилятор не считал их спец-символами. Вот пример:
+![escaped symbols](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/escaped_symbols.png)
+
 
 ### Переменные
 
