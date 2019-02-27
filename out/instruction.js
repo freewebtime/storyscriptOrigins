@@ -91,6 +91,14 @@ __context['__text'] = [...__context['__text'], `${__serializer.serialize(__conte
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
+__context['__text'] = [...__context['__text'], `Теперь выполним сборку тестового проекта. `];
+;
+__context['__text'] = [...__context['__text'], ``];
+;
+__context['__text'] = [...__context['__text'], `Исходные файлы истории хранятся в папке story`];
+;
+__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`story_source_files.png`, `исходники истории`), '\r\n')}`];
+;
 __context['__text'] = [...__context['__text'], ``];
 ;
 __context['__text'] = [...__context['__text'], ``];

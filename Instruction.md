@@ -37,6 +37,10 @@ node-модули обновлены
 терминал можно закрыть
 ![закрыть терминал](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/close_terminal.png)
 
+Теперь выполним сборку тестового проекта. 
+
+Исходные файлы истории хранятся в папке story
+![исходники истории](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_source_files.png)
 
 
 ## Для всех (база)
