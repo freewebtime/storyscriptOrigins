@@ -1,4 +1,6 @@
 # Storyscript. Инструкция
+Актуально для версий 1.4.x. Примите во внимание, что Storyscript работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены
+
 Это - краткая инструкция пользователя языка программирования [storyscript](https://github.com/freewebtime/storyscript) в [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 
 ## Начало работы
@@ -8,6 +10,7 @@
 Установите [Storyscript плагин для vscode](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode)
 ![пустая папка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)
 
+#### Начинаем
 
 Самый простой способ приступить к работе - это открыть пустую папку в vscode и скопировать в нее тестовый проект
 
@@ -64,9 +67,9 @@ node-модули обновлены
 ![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/layout_2.png)
 ![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/layout_3.png)
 
-Окно предпросмотра можно размещать как удобно
 Текст, показанный в окне предпросмотра, сохраняется в файл "story output.txt" в корне проекта
 ![story output](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_output.png)
+
 
 ## Для всех (база)
 Упрощенная инструкция затрагивает только базовый функционал.
@@ -74,15 +77,62 @@ node-модули обновлены
 
 ### Текст истории
 
+Давайте удалим все содержимое файла story/index.sts и начнем историю с чистого листа
+
+
 #### Обычный текст
+Обычный текст попадает в финальную сборку "как есть", без изменений
+![simple text](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/simple_text.png)
+
+#### Комментарии
+Комментарии - это фрагмент текста, который не пойдет в финальную сборку. Комментарии нужны для самих разработчиков истории. Весь текст от символов // и до конца строки будет считаться комментарием
+![comments](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/comments.png)
+
+#### Спец-символы (перенос строки, табуляция)
+Есть три спец-символа, которые попадают в финальную сборку нестандартно. 
+
+Это символ переноса строки
+![endline symbol](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/endline_symbol.png)
+
+Символы конца строки и табуляции
+![endline and tab symbols](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/endline_and_tab.png)
 
 #### Экранирование спец-символов
+Экранирование спец-символов - это маркировка этих символов таким образом, чтобы компилятор не считал их спец-символами. Вот пример:
+![escaped symbols](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/escaped_symbols.png)
 
 ### Переменные
+Если оформить текст в виде списка, то элементы этого списка можно будет вставлять в других местах истории
+Переменная пишется так (отступ из пробелов, потом звездочка, потом пробел, потом название переменной):
+
+	* Название Переменной
+
+    Содержание переменной пишется
+
+    с новой строки и отступом от края на 2 (два) пробела больше, чем у названия
+
+Вот пример объявленной переменной
+![outer variables](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable.png)
+
 
 ### Вставки в текст
+А вот переменные вставлены в текст, и что из этого получается:
+![outer variables inserted](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable_inserted.png)
+
+#### Многоуровневые переменные
+![outer variables hierarchy](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variables_hierarchy.png)
 
 ### Импорт других файлов
+Мы работаем в файле story/index.sts
+Давайте посмотрим, что у нас еще есть в папке story:
+![external file](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/external_file.png)
+
+Импортируем этот файл к нам
+![import characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/import_characters.png)
+
+И вставим персонажа из того файла в наш текст
+![import characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/inserted_imported_character.png)
+
 
 ## Для программистов
 Усложненная инстркукция. Предполагается, что без объяснений ее должны понять программисты и всякие технари
