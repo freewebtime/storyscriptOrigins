@@ -112,7 +112,7 @@ __context['Сторипоинты']['Обретение меча']['__text'] = [
 ;
 __context['Сторипоинты']['Обретение меча']['__text'] = [...__context['Сторипоинты']['Обретение меча']['__text'], ``];
 ;
-__context['Сторипоинты']['Обретение меча']['__text'] = [...__context['Сторипоинты']['Обретение меча']['__text'], `![ссылка](https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/references.png)`];
+__context['Сторипоинты']['Обретение меча']['__text'] = [...__context['Сторипоинты']['Обретение меча']['__text'], `![ссылка](https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/references.png) `];
 ;
 __context['Сторипоинты']['Обретение меча']['__text'] = [...__context['Сторипоинты']['Обретение меча']['__text'], ``];
 ;
