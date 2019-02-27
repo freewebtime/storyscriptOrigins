@@ -99,10 +99,16 @@ node-модули обновлены
 Экранирование спец-символов - это маркировка этих символов таким образом, чтобы компилятор не считал их спец-символами. Вот пример:
 ![escaped symbols](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/escaped_symbols.png)
 
-
 ### Переменные
+Если оформить текст в виде списка, то элементы этого списка можно будет вставлять в других местах истории
+
+Вот пример объявленной переменной
+![outer variables](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable.png)
 
 ### Вставки в текст
+А вот переменные вставлены в текст, и что из этого получается:
+![outer variables inserted](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/outer_variable_inserted.png)
+
 
 ### Импорт других файлов
 
