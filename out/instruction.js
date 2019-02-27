@@ -123,13 +123,15 @@ __context['__text'] = [...__context['__text'], `${__serializer.serialize(__conte
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], `Cборка истории завершена. В папке src сохраняется история на typescript. В папке out будет эта история на javascript. `];
+__context['__text'] = [...__context['__text'], `В папке src сохраняется история на typescript. В папке out будет эта история на javascript`];
 ;
 __context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`compiled_story.png`, `compiled story`), '\r\n')}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
-__context['__text'] = [...__context['__text'], `открывается предпросмотр`];
+__context['__text'] = [...__context['__text'], `Когда сборка истории завершена, открывается предпросмотр`];
+;
+__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`preview_story.png`, `compiled story`), '\r\n')}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
