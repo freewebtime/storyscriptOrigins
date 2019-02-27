@@ -37,6 +37,7 @@ node-модули обновлены
 терминал можно закрыть
 ![закрыть терминал](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/close_terminal.png)
 
+
 Исходные файлы истории хранятся в папке story (*.sts)
 ![исходники истории](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_source_files.png)
 
@@ -52,8 +53,15 @@ node-модули обновлены
 Выбирайте комманду "Compile: Compile and show preview" (по-умолчанию Ctrl+Alt+P)
 ![compile and show preview](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/compile_and_show_preview.png)
 
-Когда сборка истории завершена, открывается предпросмотр
+Cборка истории завершена. В папке src сохраняется история на typescript. В папке out будет эта история на javascript. 
 ![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/compiled_story.png)
+
+открывается предпросмотр
+
+Окно предпросмотра можно размещать как удобно
+![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/layout_2.png)
+![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/layout_3.png)
+
 
 
 ## Для всех (база)

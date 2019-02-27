@@ -48,6 +48,7 @@ node-модули обновлены
 терминал можно закрыть
 *фото("close_terminal.png", "закрыть терминал");
 
+
 Исходные файлы истории хранятся в папке story (\*.sts)
 *фото("story_source_files.png", "исходники истории");
 
@@ -63,8 +64,11 @@ node-модули обновлены
 Выбирайте комманду "Compile: Compile and show preview" (по-умолчанию Ctrl+Alt+P)
 *фото("compile_and_show_preview.png", "compile and show preview");
 
-Когда сборка истории завершена, открывается предпросмотр
+В папке src сохраняется история на typescript. В папке out будет эта история на javascript
 *фото("compiled_story.png", "compiled story");
+
+Когда сборка истории завершена, открывается предпросмотр
+*фото("preview_story.png", "compiled story");
 
 Окно предпросмотра можно размещать как удобно
 *фото("layout_2.png", "compiled story");
