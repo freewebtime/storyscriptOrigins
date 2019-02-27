@@ -381,6 +381,8 @@ __context['__text'] = [...__context['__text'], ``];
 ;
 __context['__text'] = [...__context['__text'], `Raw-переменная (с префиксом "@")`];
 ;
+__context['__text'] = [...__context['__text'], ``];
+;
 __context['__text'] = [...__context['__text'], `\t  -> storyscript`];
 ;
 __context['__text'] = [...__context['__text'], `\t  * { @Переменная = 100500; }`];
