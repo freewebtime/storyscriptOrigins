@@ -186,7 +186,7 @@ Storyscript задуман как диалект javascript по аналоги�
 
 Булевые
 
-	 tue alse
+	  true false
 
 #### Операторы
 	  +
@@ -218,8 +218,70 @@ Storyscript задуман как диалект javascript по аналоги�
 	 instruction2;
 	}
 
-#### Объекты
+#### Объекты, массивы
+Объекты
 
+	 let obj = {
+	  ...otherObj,
+	  fieldName: "fieldValue",
+	  otherVariable,
+	  "fieldName2": 100500,
+	  "isTrue": false
+	}
+
+#### Инструкции
+
+Import
+
+	import * as varname from './module/Path'
+
+If
+
+	if (condition) {
+	  instructions;
+	} else if (condition2) {
+	  instructions2;
+	} else {
+	  instructions3
+	}
+
+For
+
+	for (var i; @i < 10; @i++) {
+	 instructions;  
+	}
+
+For In
+
+	for (let key in obj) {
+	  instructions;
+	}
+
+While
+
+	while (condition) {
+	  instructions;
+	}
+
+Do while
+
+	do {
+	  instructions;
+	} while (condition)
+
+Switch case
+
+	switch (condition) {
+	
+	  case condition: 
+	    instructions;
+	  break;
+	
+	  default:
+	    instructions;
+	  break;
+	
+	}
 
 ## _
 [Сидоренко Евгений](https://www.facebook.com/evgeny.sydorenko), февраль 2019
