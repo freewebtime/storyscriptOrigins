@@ -325,7 +325,7 @@ __context['__text'] = [...__context['__text'], `\t  строка без спец
 ;
 __context['__text'] = [...__context['__text'], `  ->`];
 ;
-__context['__text'] = [...__context['__text'], `\t  __context['__text'] = [...__context['__text'], \`строка без спец-символов\`];`];
+__context['__text'] = [...__context['__text'], `\t  __context['__text'] = [...__context['__text'], \\\`строка без спец-символов\\\`];`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
@@ -335,7 +335,7 @@ __context['__text'] = [...__context['__text'], `\t  строка с \*Перем
 ;
 __context['__text'] = [...__context['__text'], `  -> `];
 ;
-__context['__text'] = [...__context['__text'], `\t  __context['__text'] = [...__context['__text'], \`строка с \${__serializer.serialize( __context['Переменная'], '\\r\\n' )} \`];`];
+__context['__text'] = [...__context['__text'], `\t  __context['__text'] = [...__context['__text'], \\\`строка с \${__serializer.serialize( __context['Переменная'], '\\r\\n' )} \\\`];`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
