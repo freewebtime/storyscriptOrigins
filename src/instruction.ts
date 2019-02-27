@@ -287,6 +287,12 @@ __context['__text'] = [...__context['__text'], `Усложненная инст�
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
+__context['__text'] = [...__context['__text'], `### Идея`];
+;
+__context['__text'] = [...__context['__text'], `Storyscript задуман как диалект javascript по аналогии с ${__serializer.serialize( __context['ссылка'](`https:\//www.typescriptlang.org/`, `typescript`), '\r\n' )}.`];
+;
+__context['__text'] = [...__context['__text'], ``];
+;
 __context['__text'] = [...__context['__text'], `### Синтаксис`];
 ;
 __context['__text'] = [...__context['__text'], ``];
