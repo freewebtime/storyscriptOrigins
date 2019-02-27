@@ -64,7 +64,9 @@ node-модули обновлены
 ![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/layout_2.png)
 ![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/layout_3.png)
 
-
+Окно предпросмотра можно размещать как удобно
+Текст, показанный в окне предпросмотра, сохраняется в файл "story output.txt" в корне проекта
+![compiled story](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_output.png)
 
 ## Для всех (база)
 Упрощенная инструкция затрагивает только базовый функционал.
