@@ -124,9 +124,19 @@ node-модули обновлены
 *фото("outer_variable_inserted.png", "outer variables inserted");
 
 #### Многоуровневые переменные
-*фото("outer_variables_hierarchy.png", "outer variables");
+*фото("outer_variables_hierarchy.png", "outer variables hierarchy");
 
 ### Импорт других файлов
+Мы работаем в файле story/index.sts
+Давайте посмотрим, что у нас еще есть в папке story:
+*фото("external_file.png", "external file");
+
+Импортируем этот файл к нам
+*фото("import_characters.png", "import characters");
+
+И вставим персонажа из того файла в наш текст
+*фото("inserted_imported_character.png", "import characters");
+
 
 ## Для программистов
 Усложненная инстркукция. Предполагается, что без объяснений ее должны понять программисты и всякие технари
