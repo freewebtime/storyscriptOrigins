@@ -353,5 +353,5 @@ Delete
 
 	delete obj.field;
 
-## 
+##  
 [Сидоренко Евгений](https://www.facebook.com/evgeny.sydorenko), февраль 2019
