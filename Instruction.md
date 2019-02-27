@@ -138,7 +138,7 @@ node-модули обновлены
 ![import characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/import_characters.png)
 
 И вставим персонажа из того файла в наш текст
-![import characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/inserted_imported_character.png)
+![inserted imported characters](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/inserted_imported_character.png)
 
 
 ## Для программистов
@@ -147,9 +147,14 @@ node-модули обновлены
 ### Идея
 Storyscript задуман как диалект javascript по аналогии с [typescript](https://www.typescriptlang.org/).
 Каждый sts модуль из папки projectRoot/story компилируется в соответствующий .ts файл и складывается это все в папке projectRoot/src. После чего typescript компилирует содержимое папки projectRoot/src в projectRoot/out - это уже javascript файлы. 
+![compiled typescript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_compiled_to_typescript.png)
+
 
 ### Синтаксис
-
+Строка без спец-символов компилируется как инструкция:
+	
+	
+	
 
 ### Как это работает 
 
