@@ -68,13 +68,34 @@ node-модули обновлены
 Текст, показанный в окне предпросмотра, сохраняется в файл "story output.txt" в корне проекта
 ![story output](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/story_output.png)
 
+
 ## Для всех (база)
 Упрощенная инструкция затрагивает только базовый функционал.
 Этого хватит, чтобы собрать сценарий, и предполагается, что пользователю не понадобится никаких технических знаний
 
 ### Текст истории
 
+Давайте удалим все содержимое файла story/index.sts и начнем историю с чистого листа
+
+
 #### Обычный текст
+Обычный текст попадает в финальную сборку "как есть", без изменений
+![simple text](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/simple_text.png)
+
+#### Комментарии
+Комментарии - это фрагмент текста, который не пойдет в финальную сборку. Комментарии нужны для самих разработчиков истории. Весь текст от символов // и до конца строки будет считаться комментарием
+![comments](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/comments.png)
+
+#### Спец-символы (перенос строки, табуляция)
+Есть три спец-символа, которые попадают в финальную сборку нестандартно. 
+
+Это символ переноса строки
+![endline symbol](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/endline_symbol.png)
+
+Символы конца строки и табуляции
+![endline and tab symbols](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/endline_and_tab.png)
+
+
 
 #### Экранирование спец-символов
 
