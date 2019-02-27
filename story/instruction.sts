@@ -134,7 +134,7 @@ node-модули обновлены
 
 #### Вставка в текст мат. выражения
 А вот переменная вставлена в текст, и что из этого получается:
-*фото("outer_variable_inserted.png", "outer variables inserted");
+*фото("include_expression.png", "include expression");
 
 
 

@@ -268,6 +268,18 @@ __context['__text'] = [...__context['__text'], `\t  * Подпеременная
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
+__context['__text'] = [...__context['__text'], `#### Вставка в текст мат. выражения`];
+;
+__context['__text'] = [...__context['__text'], `А вот переменная вставлена в текст, и что из этого получается:`];
+;
+__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['фото'](`include_expression.png`, `include expression`), '\r\n')}`];
+;
+__context['__text'] = [...__context['__text'], ``];
+;
+__context['__text'] = [...__context['__text'], ``];
+;
+__context['__text'] = [...__context['__text'], ``];
+;
 __context['__text'] = [...__context['__text'], `### Импорт других файлов`];
 ;
 __context['__text'] = [...__context['__text'], `Мы работаем в файле story/index.sts`];
