@@ -323,7 +323,7 @@ __context['__text'] = [...__context['__text'], `Строка без спец-с�
 ;
 __context['__text'] = [...__context['__text'], `\t  строка без спец-символов`];
 ;
-__context['__text'] = [...__context['__text'], `  ->`];
+__context['__text'] = [...__context['__text'], `\t  ->`];
 ;
 __context['__text'] = [...__context['__text'], `\t  __context['__text'] = [...__context['__text'], \\\`строка без спец-символов\\\`];`];
 ;
@@ -333,7 +333,7 @@ __context['__text'] = [...__context['__text'], `Строка с вставкой
 ;
 __context['__text'] = [...__context['__text'], `\t  строка с \*Переменная; `];
 ;
-__context['__text'] = [...__context['__text'], `  -> `];
+__context['__text'] = [...__context['__text'], `\t  -> `];
 ;
 __context['__text'] = [...__context['__text'], `\t  __context['__text'] = [...__context['__text'], \\\`строка с \${__serializer.serialize( __context['Переменная'], '\\r\\n' )} \\\`];`];
 ;
