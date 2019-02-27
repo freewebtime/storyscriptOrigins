@@ -215,7 +215,7 @@ Storyscript задуман как диалект javascript по аналоги�
 	varname = function (params) {
 	  instruction1;
 	  ...
-	 instruction2;
+	  instruction2;
 	}
 
 #### Объекты, массивы
