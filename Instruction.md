@@ -151,6 +151,20 @@ Storyscript задуман как диалект javascript по аналоги�
 ![compiled javascript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_compiled_to_javascript.png)
 
 ### Как это работает
+строка формата (звездочка, пробел, скоп с инструкциями "{}")
+
+	-> storyscript
+	* {
+	  instructions;
+	}
+
+компилируется как скоп с инструкциями
+
+	-> typescript
+	{
+	  instructions;
+	}
+
 Строка без спец-символов компилируется как инструкция:
 
 	  -> storyscript:
