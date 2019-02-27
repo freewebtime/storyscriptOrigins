@@ -3,7 +3,7 @@
 
 ## Начало работы
 Самый простой способ приступить к работе - это открыть пустую папку в vscode и скопировать в нее тестовый проект
-[пустая папка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_empty.png)
+![пустая папка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_empty.png)
 
 ## Для всех (база)
 Упрощенная инструкция затрагивает только базовый функционал.

@@ -5,6 +5,12 @@ let __serializer = __env.getSerializer();
 __context['ссылка'] = function (урл, текст) {
 return `[${__serializer.serialize( текст, '\r\n' )}](${__serializer.serialize( урл, '\r\n' )})`;
 };
+__context['фото'] = function (урл, текст, imgRoot) {
+if (!imgRoot) { 
+	imgRoot = `https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/`;
+ };
+return `![${__serializer.serialize( текст, '\r\n' )}](${__serializer.serialize( imgRoot, '\r\n' )}${__serializer.serialize( урл, '\r\n' )})`;
+};
 __context['__text'] = [...__context['__text'], `# Storyscript. Инструкция`];
 ;
 __context['__text'] = [...__context['__text'], `Это - краткая инструкция пользователя языка программирования [storyscript](https:\//github.com/freewebtime/storyscript) в [Microsoft Visual Studio Code](https:\//code.visualstudio.com/)`];
@@ -15,7 +21,7 @@ __context['__text'] = [...__context['__text'], `## Начало работы`];
 ;
 __context['__text'] = [...__context['__text'], `Самый простой способ приступить к работе - это открыть пустую папку в vscode и скопировать в нее тестовый проект`];
 ;
-__context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['ссылка'](`https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_empty.png`, `пустая папка`), '\r\n' )}`];
+__context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['фото'](`vscode_empty.png`, `пустая папка`), '\r\n' )}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;

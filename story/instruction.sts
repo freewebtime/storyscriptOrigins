@@ -1,12 +1,20 @@
 * ссылка = function (@урл, @текст) {
   return "[*@текст;](*@урл;)";
 }
+
+* фото = function (@урл, @текст, @imgRoot) {
+  if (!@imgRoot) {
+    @imgRoot = "https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/";
+  }
+  return "![*@текст;](*@imgRoot;*@урл;)";
+}
+
 # Storyscript. Инструкция
 Это - краткая инструкция пользователя языка программирования [storyscript](https:\//github.com/freewebtime/storyscript) в [Microsoft Visual Studio Code](https:\//code.visualstudio.com/)
 
 ## Начало работы
 Самый простой способ приступить к работе - это открыть пустую папку в vscode и скопировать в нее тестовый проект
-*ссылка("https:\//raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_empty.png", "пустая папка");
+*фото("vscode_empty.png", "пустая папка");
 
 ## Для всех (база)
 Упрощенная инструкция затрагивает только базовый функционал.
