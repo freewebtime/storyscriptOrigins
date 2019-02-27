@@ -3,7 +3,7 @@
 
 ## Начало работы
 Установите [Microsoft Visual Studio Code](https://code.visualstudio.com/)
-![vscode](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_empty.png)
+![vscode](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_new.png)
 
 Установите [Storyscript плагин для vscode](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode)
 ![пустая папка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)

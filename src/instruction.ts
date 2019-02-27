@@ -21,7 +21,7 @@ __context['__text'] = [...__context['__text'], `## Начало работы`];
 ;
 __context['__text'] = [...__context['__text'], `Установите ${__serializer.serialize( __context['ссылка'](`https:\//code.visualstudio.com/`, `Microsoft Visual Studio Code`), '\r\n' )}`];
 ;
-__context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['фото'](`vscode_empty.png`, `vscode`), '\r\n' )}`];
+__context['__text'] = [...__context['__text'], `${__serializer.serialize( __context['фото'](`vscode_new.png`, `vscode`), '\r\n' )}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
