@@ -1,7 +1,7 @@
 # Storyscript. Инструкция
 [Презентация storyscript](https://github.com/freewebtime/storyscriptOrigins/blob/master/README.md)
 
-Актуально для версий 1.4.x. Примите во внимание, что Storyscript работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены
+Актуально для версий 0.0.x. Примите во внимание, что Storyscript работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены
 
 Это - краткая инструкция пользователя языка программирования [storyscript](https://github.com/freewebtime/storyscript) в [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 
