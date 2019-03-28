@@ -268,6 +268,18 @@ __context['__text'] = [...__context['__text'], `##  `];
 ;
 __context['__text'] = [...__context['__text'], `[Сидоренко Евгений](https:\//www.facebook.com/evgeny.sydorenko), февраль 2019`];
 ;
+__context['__text'] = [...__context['__text'], ``];
+;
+__context['__text'] = [...__context['__text'], `## 28.03.2019 Внимание, Переезд проекта!`];
+;
+__context['__text'] = [...__context['__text'], `В связи с реорганизацией проекта, в ближайшие несколько дней storyscript и vscode плагин будут переименованы и перезалиты в сеть под новыми именами. `];
+;
+__context['__text'] = [...__context['__text'], `Я отпишусь ниже, как только закончу. `];
+;
+__context['__text'] = [...__context['__text'], `Когда все будет готово, я обновлю все ссылки и оставлю сообщение.`];
+;
+__context['__text'] = [...__context['__text'], ``];
+;
 
 
 // INFO: this trick is for making this file node module
