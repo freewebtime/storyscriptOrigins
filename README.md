@@ -83,15 +83,15 @@
 К середине прошедшего лета (2018) у меня была готова самая первая версия. Сильно урезанная, но это был полноценный, рабочий концепт. Язык программирования для сборки текстов. Он называется Storytailor (Стори-тэйлор, это игра слов: от английского История и Ткач). До нового года я его тестировал, как пользователь, т.е. как сценарист, а не программист. Когда у меня уже был список фич, которых не хватает, я снова сел программировать.
 
 ## Возвращение с победой
-Как вы понимаете, этот текст, который вы сейчас читаете, я пишу на StoryScript.
-![этот текст я пишу на storyscript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/writing_on_storyscript.png)
+Как вы понимаете, этот текст, который вы сейчас читаете, я пишу на Storytailor.
+![этот текст я пишу на Storytailor](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/writing_on_storyscript.png)
 Два дня назад я закончил второй этап разработки языка: тот уже не урезанный. Полный по Тьюрингу.  
 В нем реализовано еще пока далеко не все, что я хочу туда добавить, но то, что уже готово - работает, и им можно пользоваться.
 ## Хозяин двух миров
-Для того, чтобы писать на StoryScript, не нужно быть программистом. Нужно просто писать текст своей истории, как и раньше. Просто в этот текст теперь можно добавить спец-символы, которые его "оживят" ([Инструкция](https://github.com/freewebtime/storyscriptOrigins/blob/master/Instruction.md)).
+Для того, чтобы писать на Storytailor, не нужно быть программистом. Нужно просто писать текст своей истории, как и раньше. Просто в этот текст теперь можно добавить спец-символы, которые его "оживят" ([Инструкция](https://github.com/freewebtime/storyscriptOrigins/blob/master/Instruction.md)).
 
-StoryScript бесплатный. Открытый исходный код на [Гитхабе](https://github.com/freewebtime/storyscript). 
-Чтобы им воспользоваться, нужно установить бесплатный "продвинутый блокнот" [Microsoft Visual Studio Code](https://code.visualstudio.com/). И там, в этом блокноте, выбрать из списка доступных плагинов [story-script-language](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode). Если она у вас уже стоит, и устанавливали вы ее очень давно, и у вас Windows, то рекоммендую обновить [Node.js](https://nodejs.org/en/) до последней версии.
+Storytailor бесплатный. Открытый исходный код на [Гитхабе](https://github.com/jack-storytailor/storytailor). 
+Чтобы им воспользоваться, нужно установить бесплатный "продвинутый блокнот" [Microsoft Visual Studio Code](https://code.visualstudio.com/). И там, в этом блокноте, выбрать из списка доступных плагинов [storytailor-vscode](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storytailor-vscode) Если она у вас уже стоит, и устанавливали вы ее очень давно, и у вас Windows, то рекоммендую обновить [Node.js](https://nodejs.org/en/) до последней версии.
 
 ![Установка плагина](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)
 

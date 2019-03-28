@@ -1,15 +1,15 @@
-# Storyscript. Инструкция
-[Презентация storyscript](https://github.com/freewebtime/storyscriptOrigins/blob/master/README.md)
+# Storytailor. Инструкция
+[Презентация storytailor](https://github.com/freewebtime/storytailorOrigins/blob/master/README.md)
 
-Актуально для версий 0.0.x. Примите во внимание, что Storyscript работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены
+Актуально для версий 0.0.x. Примите во внимание, что Storytailor работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены
 
-Это - краткая инструкция пользователя языка программирования [storyscript](https://github.com/freewebtime/storyscript) в [Microsoft Visual Studio Code](https://code.visualstudio.com/)
+Это - краткая инструкция пользователя языка программирования [Storytailor](https://github.com/jack-storytailor/storytailor) в [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 
 ## Начало работы
 Установите [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 ![vscode](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/vscode_new.png)
 
-Установите [Storyscript плагин для vscode](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storyscript-vscode)
+Установите [Storytailor плагин для vscode](https://marketplace.visualstudio.com/items?itemName=jackstorytailor.storytailor-vscode)
 ![пустая папка](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/install_extension.png)
 
 #### Начинаем
@@ -159,7 +159,7 @@ node-модули обновлены
 Усложненная инструкция. Предполагается, что без объяснений ее должны понять программисты и всякие технари
 
 ### Идея
-Storyscript задуман как диалект javascript по аналогии с [typescript](https://www.typescriptlang.org/).
+Storytailor задуман как диалект javascript по аналогии с [typescript](https://www.typescriptlang.org/).
 Каждый sts модуль из папки projectRoot/story компилируется в соответствующий .ts файл и складывается это все в папке projectRoot/src. После чего typescript компилирует содержимое папки projectRoot/src в projectRoot/out - это уже javascript файлы. 
 ![compiled typescript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_compiled_to_typescript.png)
 ![compiled javascript](https://raw.githubusercontent.com/freewebtime/storyscriptOrigins/master/resources/storyscript_compiled_to_javascript.png)
@@ -167,7 +167,7 @@ Storyscript задуман как диалект javascript по аналоги�
 ### Как это работает
 строка формата (звездочка, пробел, скоп с инструкциями "{}")
 
-	-> storyscript
+	-> storytailor
 	* {
 	  instructions;
 	}
@@ -183,7 +183,7 @@ Storyscript задуман как диалект javascript по аналоги�
 
 Строка без спец-символов компилируется как инструкция:
 
-	  -> storyscript:
+	  -> storytailor:
 	  строка без спец-символов
 
 	  -> typescript
@@ -191,7 +191,7 @@ Storyscript задуман как диалект javascript по аналоги�
 
 Строка с вставкой:
 
-	  -> storyscript
+	  -> storytailor
 	  строка с *Переменная;
 
 	  -> typescript
@@ -199,7 +199,7 @@ Storyscript задуман как диалект javascript по аналоги�
 
 Переменная
 
-	  -> storyscript
+	  -> storytailor
 	  * Переменная
 
 	  -> typescript
@@ -207,7 +207,7 @@ Storyscript задуман как диалект javascript по аналоги�
 
 №2
 
-	  -> storyscript
+	  -> storytailor
 	  * Переменная = 100500
 
 	  -> typescript
@@ -215,7 +215,7 @@ Storyscript задуман как диалект javascript по аналоги�
 
 Raw-переменная (с префиксом "@")
 
-	  -> storyscript
+	  -> storytailor
 	  * { @Переменная = 100500; }
 
 	  -> typescript

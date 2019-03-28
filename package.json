@@ -4,16 +4,16 @@
   "description": "",
   "main": "./index.js",
   "dependencies": {
-    "storyscript": "^1.4.5"
+    "storytailor": "^0.0.2"
   },
   "devDependencies": {
-    "@types/node": "^6.0.88",
+    "@types/node": "^11.12.0",
     "typescript": "^3.3.3333"
   },
   "scripts": {
     "compileAndRun": "stsc stsconfig.json -ts tsconfig.json && node ./tasks/print_story.js",
     "compile": "stsc stsconfig.json -ts tsconfig.json",
-    "compile:storyscript": "stsc stsconfig.json",
+    "compile:storytailor": "stsc stsconfig.json",
     "compile:typescript": "tsc -p tsconfig.json"
   },
   "repository": {

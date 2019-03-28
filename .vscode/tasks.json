@@ -24,10 +24,10 @@
       "problemMatcher": []
     },
     {
-      "label": "compile:storyscript",
+      "label": "compile:storytailor",
       "group": "build",
       "type": "npm",
-      "script": "compile:storyscript",
+      "script": "compile:storytailor",
       "presentation": {
         "panel": "shared",
         "reveal": "never"

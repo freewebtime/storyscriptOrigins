@@ -2,7 +2,7 @@
  * DON'T DESTROY THIS FILE IF YOU'RE NOT SURE WHY DO YOU NEED IT
  */
 
-import * as environment from 'storyscript/out/environment';
+import * as environment from 'storytailor/out/environment';
 
 export const getSerializer = () => {
   return {

@@ -3,7 +3,7 @@
  * DON'T DESTROY THIS FILE IF YOU'RE NOT SURE WHY DO YOU NEED IT
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-const environment = require("storyscript/out/environment");
+const environment = require("storytailor/out/environment");
 exports.getSerializer = () => {
     return {
         serialize: (obj, separator) => {
