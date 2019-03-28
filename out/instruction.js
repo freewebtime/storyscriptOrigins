@@ -8,7 +8,7 @@ __context = Object.assign({}, __context, __context['system'], { __text: __contex
 ;
 __context['__text'] = [...__context['__text'], `# Storytailor. Инструкция`];
 ;
-__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['ссылка'](`https:\//github.com/freewebtime/storytailorOrigins/blob/master/README.md`, `Презентация storytailor`), '\r\n')}`];
+__context['__text'] = [...__context['__text'], `${__serializer.serialize(__context['ссылка'](`https:\//github.com/freewebtime/storyscriptOrigins/blob/master/README.md`, `Презентация storytailor`), '\r\n')}`];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;

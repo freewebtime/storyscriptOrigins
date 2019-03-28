@@ -1,5 +1,5 @@
 # Storytailor. Инструкция
-[Презентация storytailor](https://github.com/freewebtime/storytailorOrigins/blob/master/README.md)
+[Презентация storytailor](https://github.com/freewebtime/storyscriptOrigins/blob/master/README.md)
 
 Актуально для версий 0.0.x. Примите во внимание, что Storytailor работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены
 
