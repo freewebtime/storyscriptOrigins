@@ -2,7 +2,7 @@
 * { @__context = {...@__context, ...system, __text: __text}; }
 
 # Storytailor. Инструкция
-*ссылка("https:\//github.com/freewebtime/storyscriptOrigins/blob/master/README.md", "Презентация storytailor");
+*ссылка("https://github.com/jack-storytailor/storytailorOrigins/blob/master/README.md", "Презентация storytailor");
 
 Актуально для версий 0.0.x. Примите во внимание, что Storytailor работает в экспериментальном режиме, и некоторые правила могут быть в дальнейшем изменены
 
