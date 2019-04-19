@@ -1,11 +1,8 @@
 {
   "sourceRoot": "./story", 
-  "environmentPath": "environment",
+  "environmentPath": "../src/environment",
 
-  "isEmitTypescript": true,
-  "typescriptOutputRoot": "./src",
-
-  "isEmitJavascript": false,
+  "isEmitJavascript": true,
   "javascriptOutputRoot": "./out",
 
   "exclude": [
