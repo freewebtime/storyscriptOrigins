@@ -110,4 +110,4 @@ Storytailor бесплатный. Открытый исходный код на 
 Когда все будет готово, я обновлю все ссылки и оставлю сообщение.
 
 ## 20.04.2019 Переезд завершен
-Storyscript переименован в Storytailor и переехал на новый адрес: [Storytailor](https://github.com/jack-storytailor/storytailor)
+Storyscript переименован в Storytailor и переехал на новый адрес: [Storytailor](https://github.com/jack-storytailor/storytailor)   
