@@ -282,7 +282,7 @@ __context['__text'] = [...__context['__text'], ``];
 ;
 __context['__text'] = [...__context['__text'], `## 20.04.2019 Переезд завершен`];
 ;
-__context['__text'] = [...__context['__text'], `Storyscript переименован в Storytailor и переехал на новый адрес: ${__serializer.serialize( __context['ссылка'](`https://github.com/jack-storytailor/storytailor`, `Storytailor`), '\r\n' )}   `];
+__context['__text'] = [...__context['__text'], `Storyscript переименован в Storytailor и переехал на новый адрес: ${__serializer.serialize( __context['ссылка'](`https://github.com/jack-storytailor/storytailorOrigins`, `Storytailor`), '\r\n' )}   `];
 ;
 __context['__text'] = [...__context['__text'], ``];
 ;
